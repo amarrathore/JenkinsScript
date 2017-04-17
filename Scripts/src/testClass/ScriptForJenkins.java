@@ -2,15 +2,10 @@ package testClass;
 
 import org.testng.Assert;
 import org.testng.annotations.*;
-
-import java.util.concurrent.TimeUnit;
-
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
 @Listeners(testClass.ScreenshotITest.class)
 public class ScriptForJenkins extends WebDriverFactory {
@@ -32,15 +27,12 @@ public class ScriptForJenkins extends WebDriverFactory {
 	@Test(priority = 1)
 	public void home() throws Exception {
 		try {
-			//Thread.sleep(8000);
-			driver.manage().timeouts().implicitlyWait(50, TimeUnit.SECONDS);
-			driver.findElement(By.id("btn_origen")).click();
-			//Thread.sleep(3000);
-			WebDriverWait wait = new WebDriverWait(driver, 30);
-			WebElement source = driver.findElement(By.linkText("Cancun"));
-			wait.until(ExpectedConditions.elementToBeClickable(source));
-			driver.findElement(By.xpath("//*[@id='input_destination']")).click();
+			Thread.sleep(8000);
+			driver.findElement(By.cssSelector("#input_origin")).click();
+			Thread.sleep(3000);
 			driver.findElement(By.linkText("Mexico City")).click();
+			driver.findElement(By.xpath("//*[@id='input_destination']")).click();
+			driver.findElement(By.linkText("Guadalajara")).click();
 			driver.findElement(By.xpath("//*[@id='selDestinFlight']/div[1]/div/button")).click();
 			WebElement oneWay = driver.findElement(By.cssSelector("[id='ulTrips'] li:nth-child(2)"));
 			action = new Actions(driver);
@@ -74,13 +66,11 @@ public class ScriptForJenkins extends WebDriverFactory {
 	@Test(priority = 4)
 	public void searchFlight() throws InterruptedException {
 		try {
-			Thread.sleep(5000);
-			String searchText = "Choose your departing flight for Cancun to Mexico City";
-			String expectedText = driver.findElement(By.xpath(".//*[@id='tripDisplay_0']")).getText();
-			Assert.assertEquals(searchText, expectedText);
-			driver.findElement(By.xpath("//*[@id='sortedAvailability0']/div[1]/div[1]/div[1]/div[2]")).click();
-			driver.findElement(By.id("submit_search_button")).click();
 			Thread.sleep(3000);
+			driver.findElement(By.xpath("//*[@id='sortedAvailability0']/div[1]/div[1]/div[1]")).click();
+			Thread.sleep(2000);
+			driver.findElement(By.id("submit_search_button")).click();
+			Thread.sleep(2000);
 			driver.findElement(By.className("js-bundle-modal-option")).click();
 		} catch (Exception e) {
 			e.printStackTrace();
