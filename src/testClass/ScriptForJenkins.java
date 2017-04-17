@@ -25,7 +25,7 @@ public class ScriptForJenkins extends WebDriverFactory {
 	}
 	
 	@Test(priority = 1)
-	public void home() throws Exception {
+	public void home() {
 		try {
 			Thread.sleep(8000);
 			driver.findElement(By.cssSelector("#input_origin")).click();
@@ -64,9 +64,12 @@ public class ScriptForJenkins extends WebDriverFactory {
 	}
 	
 	@Test(priority = 4)
-	public void searchFlight() throws InterruptedException {
+	public void searchFlight() {
 		try {
 			Thread.sleep(3000);
+			String flightText = "Choose your departing flight for Mexico City to Guadalajara";
+			String expectedText = driver.findElement(By.xpath(".//*[@id='tripDisplay_0']")).getText();
+			Assert.assertEquals(flightText, expectedText);
 			driver.findElement(By.xpath("//*[@id='sortedAvailability0']/div[1]/div[1]/div[1]")).click();
 			Thread.sleep(2000);
 			driver.findElement(By.id("submit_search_button")).click();
@@ -112,7 +115,7 @@ public class ScriptForJenkins extends WebDriverFactory {
 	}
 	
 	@Test(priority = 6)
-	public void customersBaggage() throws InterruptedException {
+	public void customersBaggage() {
 		try {
 			Thread.sleep(3000);
 			String customersText = "CUSTOMERS";
@@ -139,7 +142,7 @@ public class ScriptForJenkins extends WebDriverFactory {
 	}
 	
 	@Test(priority = 8)
-	public void tripExtras() throws InterruptedException {
+	public void tripExtras() {
 		try {
 			Thread.sleep(5000);
 			String tripExtrasText = "YOU DECIDE WHAT TO ADD.";
@@ -153,7 +156,7 @@ public class ScriptForJenkins extends WebDriverFactory {
 	}
 	
 	@Test(priority = 9)
-	public void carAndPayment() throws InterruptedException {
+	public void carAndPayment() {
 		try {
 			Thread.sleep(5000);
 			driver.findElement(By.xpath(".//div/div[3]/button[@id='submit_cars_button']")).click();
