@@ -2,52 +2,52 @@
 <testng-results skipped="0" failed="0" total="9" passed="9">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="151444" started-at="2017-04-18T05:43:34Z" finished-at="2017-04-18T05:46:06Z">
+  <suite name="Default suite" duration-ms="140420" started-at="2017-04-18T11:00:49Z" finished-at="2017-04-18T11:03:09Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="151444" started-at="2017-04-18T05:43:34Z" finished-at="2017-04-18T05:46:06Z">
+    <test name="Default test" duration-ms="140420" started-at="2017-04-18T11:00:49Z" finished-at="2017-04-18T11:03:09Z">
       <class name="testClass.ScriptForJenkins">
-        <test-method status="PASS" signature="setPreCondion()[pri:0, instance:testClass.ScriptForJenkins@4883b407]" name="setPreCondion" is-config="true" duration-ms="39275" started-at="2017-04-18T11:13:34Z" finished-at="2017-04-18T11:14:13Z">
+        <test-method status="PASS" signature="setPreCondion()[pri:0, instance:testClass.ScriptForJenkins@f6c48ac]" name="setPreCondion" is-config="true" duration-ms="37972" started-at="2017-04-18T16:30:49Z" finished-at="2017-04-18T16:31:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setPreCondion -->
-        <test-method status="PASS" signature="home()[pri:1, instance:testClass.ScriptForJenkins@4883b407]" name="home" duration-ms="9927" started-at="2017-04-18T11:14:13Z" finished-at="2017-04-18T11:14:23Z">
+        <test-method status="PASS" signature="home()[pri:1, instance:testClass.ScriptForJenkins@f6c48ac]" name="home" duration-ms="9095" started-at="2017-04-18T16:31:27Z" finished-at="2017-04-18T16:31:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- home -->
-        <test-method status="PASS" signature="selectDate()[pri:2, instance:testClass.ScriptForJenkins@4883b407]" name="selectDate" duration-ms="3176" started-at="2017-04-18T11:14:23Z" finished-at="2017-04-18T11:14:27Z">
+        <test-method status="PASS" signature="selectDate()[pri:2, instance:testClass.ScriptForJenkins@f6c48ac]" name="selectDate" duration-ms="3501" started-at="2017-04-18T16:31:36Z" finished-at="2017-04-18T16:31:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectDate -->
-        <test-method status="PASS" signature="selectPAX()[pri:3, instance:testClass.ScriptForJenkins@4883b407]" name="selectPAX" duration-ms="15426" started-at="2017-04-18T11:14:27Z" finished-at="2017-04-18T11:14:42Z">
+        <test-method status="PASS" signature="selectPAX()[pri:3, instance:testClass.ScriptForJenkins@f6c48ac]" name="selectPAX" duration-ms="16870" started-at="2017-04-18T16:31:39Z" finished-at="2017-04-18T16:31:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectPAX -->
-        <test-method status="PASS" signature="searchFlight()[pri:4, instance:testClass.ScriptForJenkins@4883b407]" name="searchFlight" duration-ms="15739" started-at="2017-04-18T11:14:42Z" finished-at="2017-04-18T11:14:58Z">
+        <test-method status="PASS" signature="searchFlight()[pri:4, instance:testClass.ScriptForJenkins@f6c48ac]" name="searchFlight" duration-ms="16804" started-at="2017-04-18T16:31:56Z" finished-at="2017-04-18T16:32:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchFlight -->
-        <test-method status="PASS" signature="PAXInfo()[pri:5, instance:testClass.ScriptForJenkins@4883b407]" name="PAXInfo" duration-ms="17971" started-at="2017-04-18T11:14:58Z" finished-at="2017-04-18T11:15:16Z">
+        <test-method status="PASS" signature="PAXInfo()[pri:5, instance:testClass.ScriptForJenkins@f6c48ac]" name="PAXInfo" duration-ms="17838" started-at="2017-04-18T16:32:13Z" finished-at="2017-04-18T16:32:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PAXInfo -->
-        <test-method status="PASS" signature="customersBaggage()[pri:6, instance:testClass.ScriptForJenkins@4883b407]" name="customersBaggage" duration-ms="3276" started-at="2017-04-18T11:15:16Z" finished-at="2017-04-18T11:15:19Z">
+        <test-method status="PASS" signature="customersBaggage()[pri:6, instance:testClass.ScriptForJenkins@f6c48ac]" name="customersBaggage" duration-ms="3236" started-at="2017-04-18T16:32:31Z" finished-at="2017-04-18T16:32:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- customersBaggage -->
-        <test-method status="PASS" signature="selectSeat()[pri:7, instance:testClass.ScriptForJenkins@4883b407]" name="selectSeat" duration-ms="20915" started-at="2017-04-18T11:15:19Z" finished-at="2017-04-18T11:15:40Z">
+        <test-method status="PASS" signature="selectSeat()[pri:7, instance:testClass.ScriptForJenkins@f6c48ac]" name="selectSeat" duration-ms="20317" started-at="2017-04-18T16:32:34Z" finished-at="2017-04-18T16:32:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectSeat -->
-        <test-method status="PASS" signature="tripExtras()[pri:8, instance:testClass.ScriptForJenkins@4883b407]" name="tripExtras" duration-ms="5628" started-at="2017-04-18T11:15:40Z" finished-at="2017-04-18T11:15:46Z">
+        <test-method status="PASS" signature="tripExtras()[pri:8, instance:testClass.ScriptForJenkins@f6c48ac]" name="tripExtras" duration-ms="5599" started-at="2017-04-18T16:32:55Z" finished-at="2017-04-18T16:33:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tripExtras -->
-        <test-method status="PASS" signature="carAndPayment()[pri:9, instance:testClass.ScriptForJenkins@4883b407]" name="carAndPayment" duration-ms="18970" started-at="2017-04-18T11:15:46Z" finished-at="2017-04-18T11:16:05Z">
+        <test-method status="PASS" signature="carAndPayment()[pri:9, instance:testClass.ScriptForJenkins@f6c48ac]" name="carAndPayment" duration-ms="8255" started-at="2017-04-18T16:33:00Z" finished-at="2017-04-18T16:33:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- carAndPayment -->
-        <test-method status="PASS" signature="closeTest()[pri:0, instance:testClass.ScriptForJenkins@4883b407]" name="closeTest" is-config="true" duration-ms="1086" started-at="2017-04-18T11:16:05Z" finished-at="2017-04-18T11:16:06Z">
+        <test-method status="PASS" signature="closeTest()[pri:0, instance:testClass.ScriptForJenkins@f6c48ac]" name="closeTest" is-config="true" duration-ms="890" started-at="2017-04-18T16:33:08Z" finished-at="2017-04-18T16:33:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeTest -->

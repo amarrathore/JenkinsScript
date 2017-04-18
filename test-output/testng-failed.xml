@@ -6,7 +6,7 @@
       <class name="testClass.ScriptForJenkins">
         <methods>
           <include name="closeTest"/>
-          <include name="searchFlight"/>
+          <include name="tripExtras"/>
           <include name="setPreCondion"/>
         </methods>
       </class> <!-- testClass.ScriptForJenkins -->

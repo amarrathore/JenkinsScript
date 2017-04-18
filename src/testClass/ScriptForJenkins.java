@@ -29,7 +29,7 @@ public class ScriptForJenkins extends WebDriverFactory {
 		try {
 			Thread.sleep(5000);
 			driver.findElement(By.cssSelector("#input_origin")).click();
-			Thread.sleep(3000);
+			Thread.sleep(2000);
 			driver.findElement(By.linkText("Mexico City")).click();
 			driver.findElement(By.xpath("//*[@id='input_destination']")).click();
 			driver.findElement(By.linkText("Guadalajara")).click();
