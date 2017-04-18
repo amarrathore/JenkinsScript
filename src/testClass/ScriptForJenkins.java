@@ -27,7 +27,7 @@ public class ScriptForJenkins extends WebDriverFactory {
 	@Test(priority = 1)
 	public void home() {
 		try {
-			Thread.sleep(8000);
+			Thread.sleep(5000);
 			driver.findElement(By.cssSelector("#input_origin")).click();
 			Thread.sleep(3000);
 			driver.findElement(By.linkText("Mexico City")).click();

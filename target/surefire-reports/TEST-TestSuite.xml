@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="9" failures="0" name="TestSuite" time="99.166" errors="0" skipped="0">
+<testsuite tests="9" failures="1" name="TestSuite" time="80.289" errors="0" skipped="0">
   <properties>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="JOB_NAME" value="VolarisRunOnJenkins"/>
@@ -26,8 +26,8 @@
     <property name="ProgramFiles" value="C:\Program Files (x86)"/>
     <property name="user.language" value="en"/>
     <property name="JOB_BASE_NAME" value="VolarisRunOnJenkins"/>
-    <property name="RUN_CHANGES_DISPLAY_URL" value="http://127.0.0.1:8080/job/VolarisRunOnJenkins/9/display/redirect?page=changes"/>
-    <property name="BUILD_DISPLAY_NAME" value="#9"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://127.0.0.1:8080/job/VolarisRunOnJenkins/24/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#24"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\bin"/>
     <property name="LOCALAPPDATA" value="C:\Windows\system32\config\systemprofile\AppData\Local"/>
     <property name="java.version" value="1.8.0_121"/>
@@ -38,7 +38,7 @@
     <property name="NODE_NAME" value="master"/>
     <property name="PROCESSOR_ARCHITEW6432" value="AMD64"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\endorsed"/>
-    <property name="BUILD_ID" value="9"/>
+    <property name="BUILD_ID" value="24"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="file.encoding.pkg" value="sun.io"/>
@@ -51,7 +51,7 @@
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_121\jre"/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="os.version" value="6.1"/>
-    <property name="RUN_DISPLAY_URL" value="http://127.0.0.1:8080/job/VolarisRunOnJenkins/9/display/redirect"/>
+    <property name="RUN_DISPLAY_URL" value="http://127.0.0.1:8080/job/VolarisRunOnJenkins/24/display/redirect"/>
     <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
     <property name="TMP" value="C:\Windows\TEMP"/>
     <property name="path.separator" value=";"/>
@@ -73,7 +73,7 @@
     <property name="POM_GROUPID" value="Scripts"/>
     <property name="user.home" value="C:\Windows\system32\config\systemprofile"/>
     <property name="PUBLIC" value="C:\Users\Public"/>
-    <property name="BUILD_TAG" value="jenkins-VolarisRunOnJenkins-9"/>
+    <property name="BUILD_TAG" value="jenkins-VolarisRunOnJenkins-24"/>
     <property name="JENKINS_SERVER_COOKIE" value="321bfc4ff1dada17"/>
     <property name="HUDSON_URL" value="http://127.0.0.1:8080/"/>
     <property name="ProgramData" value="C:\ProgramData"/>
@@ -88,7 +88,7 @@
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="maven.home" value="C:\apache-maven-3.3.9"/>
     <property name="java.class.path" value="C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven33-agent-1.8.1.jar;C:\apache-maven-3.3.9\boot\plexus-classworlds-2.5.2.jar;C:\apache-maven-3.3.9/conf/logging"/>
-    <property name="sun.java.command" value="jenkins.maven3.agent.Maven33Main C:\apache-maven-3.3.9 C:\Program Files (x86)\Jenkins\war\WEB-INF\lib\remoting-3.7.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven33-interceptor-1.8.1.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.8.1.jar 60036"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven33Main C:\apache-maven-3.3.9 C:\Program Files (x86)\Jenkins\war\WEB-INF\lib\remoting-3.7.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven33-interceptor-1.8.1.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.8.1.jar 62519"/>
     <property name="Path" value="C:\Program Files\Java\jdk1.8.0_121/bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_121\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Java\jdk1.8.0_121\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\bin;C:\apache-maven-3.3.9\bin;"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="PROCESSOR_ARCHITECTURE" value="x86"/>
@@ -103,7 +103,7 @@
     <property name="HUDSON_HOME" value="C:\Program Files (x86)\Jenkins"/>
     <property name="PATH+MAVEN" value="C:\apache-maven-3.3.9/bin"/>
     <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
-    <property name="BUILD_URL" value="http://127.0.0.1:8080/job/VolarisRunOnJenkins/9/"/>
+    <property name="BUILD_URL" value="http://127.0.0.1:8080/job/VolarisRunOnJenkins/24/"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="Git_Home" value="C:\Program Files\Git\bin\git.exe"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
@@ -117,7 +117,7 @@
     <property name="line.separator" value="
 "/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="BUILD_NUMBER" value="9"/>
+    <property name="BUILD_NUMBER" value="24"/>
     <property name="BASE" value="C:\Program Files (x86)\Jenkins"/>
     <property name="JENKINS_URL" value="http://127.0.0.1:8080/"/>
     <property name="PROCESSOR_REVISION" value="4501"/>
@@ -132,13 +132,22 @@
     <property name="java.specification.version" value="1.8"/>
     <property name="PSModulePath" value="C:\Windows\system32\WindowsPowerShell\v1.0\Modules\"/>
   </properties>
-  <testcase classname="testClass.ScriptForJenkins" name="home" time="12.434"/>
-  <testcase classname="testClass.ScriptForJenkins" name="selectDate" time="3.214"/>
-  <testcase classname="testClass.ScriptForJenkins" name="selectPAX" time="15.994"/>
-  <testcase classname="testClass.ScriptForJenkins" name="searchFlight" time="16.53"/>
-  <testcase classname="testClass.ScriptForJenkins" name="PAXInfo" time="17.062"/>
-  <testcase classname="testClass.ScriptForJenkins" name="customersBaggage" time="3.248"/>
-  <testcase classname="testClass.ScriptForJenkins" name="selectSeat" time="18.747"/>
-  <testcase classname="testClass.ScriptForJenkins" name="tripExtras" time="5.467"/>
-  <testcase classname="testClass.ScriptForJenkins" name="carAndPayment" time="6.47"/>
+  <testcase classname="testClass.ScriptForJenkins" name="home" time="11.026"/>
+  <testcase classname="testClass.ScriptForJenkins" name="selectDate" time="3.168"/>
+  <testcase classname="testClass.ScriptForJenkins" name="selectPAX" time="14.229"/>
+  <testcase classname="testClass.ScriptForJenkins" name="searchFlight" time="14.967"/>
+  <testcase classname="testClass.ScriptForJenkins" name="PAXInfo" time="14.252"/>
+  <testcase classname="testClass.ScriptForJenkins" name="customersBaggage" time="3.599"/>
+  <testcase classname="testClass.ScriptForJenkins" name="selectSeat" time="8.235"/>
+  <testcase classname="testClass.ScriptForJenkins" name="tripExtras" time="5.794">
+    <failure message="expected [CUSTOMERS] but found [YOU DECIDE WHAT TO ADD.]" type="java.lang.AssertionError">java.lang.AssertionError: expected [CUSTOMERS] but found [YOU DECIDE WHAT TO ADD.]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertEquals(Assert.java:125)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at org.testng.Assert.assertEquals(Assert.java:188)
+	at testClass.ScriptForJenkins.tripExtras(ScriptForJenkins.java:150)
+</failure>
+  </testcase>
+  <testcase classname="testClass.ScriptForJenkins" name="carAndPayment" time="5.019"/>
 </testsuite>
