@@ -1,0 +1,3 @@
+Pre-send Script
+	def reportPath = build .getWorkspace().child("test-output/emailable-report.html")
+	msg.setContent(reportPath.readToString(), "text/html");
