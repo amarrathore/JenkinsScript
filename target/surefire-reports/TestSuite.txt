@@ -1,12 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 9, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 393.139 sec <<< FAILURE!
-tripExtras(testClass.ScriptForJenkins)  Time elapsed: 5.632 sec  <<< FAILURE!
-java.lang.AssertionError: expected [CUSTOMERS] but found [YOU DECIDE WHAT TO ADD.]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:496)
-	at org.testng.Assert.assertEquals(Assert.java:125)
-	at org.testng.Assert.assertEquals(Assert.java:178)
-	at org.testng.Assert.assertEquals(Assert.java:188)
-	at testClass.ScriptForJenkins.tripExtras(ScriptForJenkins.java:150)
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 420.271 sec

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="9"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="112.151">
+  <properties />
+  
+  
+            <testcase name="searchFlight" time="16.481" classname="testClass.ScriptForJenkins" />
+                <testcase name="selectSeat" time="20.008" classname="testClass.ScriptForJenkins" />
+                <testcase name="carAndPayment" time="18.929" classname="testClass.ScriptForJenkins" />
+                <testcase name="selectPAX" time="17.909" classname="testClass.ScriptForJenkins" />
+                <testcase name="customersBaggage" time="3.328" classname="testClass.ScriptForJenkins" />
+                <testcase name="home" time="8.946" classname="testClass.ScriptForJenkins" />
+                <testcase name="selectDate" time="3.214" classname="testClass.ScriptForJenkins" />
+                <testcase name="tripExtras" time="5.520" classname="testClass.ScriptForJenkins" />
+                <testcase name="PAXInfo" time="17.816" classname="testClass.ScriptForJenkins" />
+      
+</testsuite>

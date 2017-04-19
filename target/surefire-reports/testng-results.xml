@@ -1,101 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" total="9" passed="8">
+<testng-results skipped="0" failed="0" total="9" passed="9">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="391847" started-at="2017-04-18T10:34:26Z" finished-at="2017-04-18T10:40:57Z">
+  <suite name="Suite" duration-ms="419235" started-at="2017-04-19T05:50:51Z" finished-at="2017-04-19T05:57:50Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="391847" started-at="2017-04-18T10:34:26Z" finished-at="2017-04-18T10:40:57Z">
+    <test name="Test" duration-ms="419235" started-at="2017-04-19T05:50:51Z" finished-at="2017-04-19T05:57:50Z">
       <class name="testClass.ScriptForJenkins">
-        <test-method status="PASS" signature="setPreCondion()[pri:0, instance:testClass.ScriptForJenkins@36f6e879]" name="setPreCondion" is-config="true" duration-ms="306856" started-at="2017-04-18T16:04:26Z" finished-at="2017-04-18T16:09:32Z">
+        <test-method status="PASS" signature="setPreCondion()[pri:0, instance:testClass.ScriptForJenkins@6e1567f1]" name="setPreCondion" is-config="true" duration-ms="306017" started-at="2017-04-19T11:20:51Z" finished-at="2017-04-19T11:25:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setPreCondion -->
-        <test-method status="PASS" signature="home()[pri:1, instance:testClass.ScriptForJenkins@36f6e879]" name="home" duration-ms="8710" started-at="2017-04-18T16:09:32Z" finished-at="2017-04-18T16:09:41Z">
+        <test-method status="PASS" signature="home()[pri:1, instance:testClass.ScriptForJenkins@6e1567f1]" name="home" duration-ms="8946" started-at="2017-04-19T11:25:57Z" finished-at="2017-04-19T11:26:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- home -->
-        <test-method status="PASS" signature="selectDate()[pri:2, instance:testClass.ScriptForJenkins@36f6e879]" name="selectDate" duration-ms="3195" started-at="2017-04-18T16:09:41Z" finished-at="2017-04-18T16:09:44Z">
+        <test-method status="PASS" signature="selectDate()[pri:2, instance:testClass.ScriptForJenkins@6e1567f1]" name="selectDate" duration-ms="3214" started-at="2017-04-19T11:26:06Z" finished-at="2017-04-19T11:26:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectDate -->
-        <test-method status="PASS" signature="selectPAX()[pri:3, instance:testClass.ScriptForJenkins@36f6e879]" name="selectPAX" duration-ms="19585" started-at="2017-04-18T16:09:44Z" finished-at="2017-04-18T16:10:04Z">
+        <test-method status="PASS" signature="selectPAX()[pri:3, instance:testClass.ScriptForJenkins@6e1567f1]" name="selectPAX" duration-ms="17909" started-at="2017-04-19T11:26:09Z" finished-at="2017-04-19T11:26:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectPAX -->
-        <test-method status="PASS" signature="searchFlight()[pri:4, instance:testClass.ScriptForJenkins@36f6e879]" name="searchFlight" duration-ms="16651" started-at="2017-04-18T16:10:04Z" finished-at="2017-04-18T16:10:21Z">
+        <test-method status="PASS" signature="searchFlight()[pri:4, instance:testClass.ScriptForJenkins@6e1567f1]" name="searchFlight" duration-ms="16481" started-at="2017-04-19T11:26:27Z" finished-at="2017-04-19T11:26:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchFlight -->
-        <test-method status="PASS" signature="PAXInfo()[pri:5, instance:testClass.ScriptForJenkins@36f6e879]" name="PAXInfo" duration-ms="13720" started-at="2017-04-18T16:10:21Z" finished-at="2017-04-18T16:10:34Z">
+        <test-method status="PASS" signature="PAXInfo()[pri:5, instance:testClass.ScriptForJenkins@6e1567f1]" name="PAXInfo" duration-ms="17816" started-at="2017-04-19T11:26:43Z" finished-at="2017-04-19T11:27:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PAXInfo -->
-        <test-method status="PASS" signature="customersBaggage()[pri:6, instance:testClass.ScriptForJenkins@36f6e879]" name="customersBaggage" duration-ms="3237" started-at="2017-04-18T16:10:34Z" finished-at="2017-04-18T16:10:38Z">
+        <test-method status="PASS" signature="customersBaggage()[pri:6, instance:testClass.ScriptForJenkins@6e1567f1]" name="customersBaggage" duration-ms="3328" started-at="2017-04-19T11:27:01Z" finished-at="2017-04-19T11:27:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- customersBaggage -->
-        <test-method status="PASS" signature="selectSeat()[pri:7, instance:testClass.ScriptForJenkins@36f6e879]" name="selectSeat" duration-ms="8146" started-at="2017-04-18T16:10:38Z" finished-at="2017-04-18T16:10:46Z">
+        <test-method status="PASS" signature="selectSeat()[pri:7, instance:testClass.ScriptForJenkins@6e1567f1]" name="selectSeat" duration-ms="20008" started-at="2017-04-19T11:27:05Z" finished-at="2017-04-19T11:27:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectSeat -->
-        <test-method status="FAIL" signature="tripExtras()[pri:8, instance:testClass.ScriptForJenkins@36f6e879]" name="tripExtras" duration-ms="5126" started-at="2017-04-18T16:10:46Z" finished-at="2017-04-18T16:10:51Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [CUSTOMERS] but found [YOU DECIDE WHAT TO ADD.]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [CUSTOMERS] but found [YOU DECIDE WHAT TO ADD.]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:496)
-	at org.testng.Assert.assertEquals(Assert.java:125)
-	at org.testng.Assert.assertEquals(Assert.java:178)
-	at org.testng.Assert.assertEquals(Assert.java:188)
-	at testClass.ScriptForJenkins.tripExtras(ScriptForJenkins.java:150)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
-	at org.testng.TestRunner.privateRun(TestRunner.java:774)
-	at org.testng.TestRunner.run(TestRunner.java:624)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1191)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)
-	at org.testng.TestNG.run(TestNG.java:1024)
-	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:177)
-	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
-	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:105)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
-	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
-	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:103)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:74)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method status="PASS" signature="tripExtras()[pri:8, instance:testClass.ScriptForJenkins@6e1567f1]" name="tripExtras" duration-ms="5520" started-at="2017-04-19T11:27:25Z" finished-at="2017-04-19T11:27:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tripExtras -->
-        <test-method status="PASS" signature="carAndPayment()[pri:9, instance:testClass.ScriptForJenkins@36f6e879]" name="carAndPayment" duration-ms="5049" started-at="2017-04-18T16:10:51Z" finished-at="2017-04-18T16:10:56Z">
+        <test-method status="PASS" signature="carAndPayment()[pri:9, instance:testClass.ScriptForJenkins@6e1567f1]" name="carAndPayment" duration-ms="18929" started-at="2017-04-19T11:27:30Z" finished-at="2017-04-19T11:27:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- carAndPayment -->
-        <test-method status="PASS" signature="closeTest()[pri:0, instance:testClass.ScriptForJenkins@36f6e879]" name="closeTest" is-config="true" duration-ms="1025" started-at="2017-04-18T16:10:56Z" finished-at="2017-04-18T16:10:57Z">
+        <test-method status="PASS" signature="closeTest()[pri:0, instance:testClass.ScriptForJenkins@6e1567f1]" name="closeTest" is-config="true" duration-ms="1031" started-at="2017-04-19T11:27:49Z" finished-at="2017-04-19T11:27:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeTest -->
