@@ -4,18 +4,18 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="119.227">
+           time="40.615">
   <properties />
   
   
-            <testcase name="tripExtras" time="5.712" classname="testClass.ScriptForJenkins" />
-                <testcase name="home" time="9.027" classname="testClass.ScriptForJenkins" />
-                <testcase name="carAndPayment" time="19.941" classname="testClass.ScriptForJenkins" />
-                <testcase name="searchFlight" time="17.688" classname="testClass.ScriptForJenkins" />
-                <testcase name="customersBaggage" time="3.287" classname="testClass.ScriptForJenkins" />
-                <testcase name="PAXInfo" time="18.381" classname="testClass.ScriptForJenkins" />
-                <testcase name="selectPAX" time="17.861" classname="testClass.ScriptForJenkins" />
-                <testcase name="selectDate" time="3.282" classname="testClass.ScriptForJenkins" />
-                <testcase name="selectSeat" time="24.048" classname="testClass.ScriptForJenkins" />
+            <testcase name="tripExtras" time="5.046" classname="testClass.ScriptForJenkins" />
+                <testcase name="searchFlight" time="3.055" classname="testClass.ScriptForJenkins" />
+                <testcase name="carAndPayment" time="5.042" classname="testClass.ScriptForJenkins" />
+                <testcase name="selectDate" time="3.073" classname="testClass.ScriptForJenkins" />
+                <testcase name="selectPAX" time="3.094" classname="testClass.ScriptForJenkins" />
+                <testcase name="selectSeat" time="8.152" classname="testClass.ScriptForJenkins" />
+                <testcase name="home" time="5.070" classname="testClass.ScriptForJenkins" />
+                <testcase name="PAXInfo" time="5.041" classname="testClass.ScriptForJenkins" />
+                <testcase name="customersBaggage" time="3.042" classname="testClass.ScriptForJenkins" />
       
 </testsuite>
