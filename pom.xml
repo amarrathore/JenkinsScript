@@ -12,7 +12,6 @@
         <version>3.3</version>
         <configuration>
         	<fork>true</fork>
-        	<executable>C:\Program Files\Java\jdk1.8.0_121\bin\javac.exe</executable>
         	<source>1.8</source>
         	<target>1.8</target>
         </configuration>
@@ -20,21 +19,6 @@
      </plugins>
   </build>
   <dependencies>
-	<dependency>
-		<groupId>org.uncommons</groupId>
-		<artifactId>reportng</artifactId>
-		<version>1.1.4</version>
-	</dependency>
-	<dependency>
-		<groupId>com.google.inject</groupId>
-		<artifactId>guice</artifactId>
-		<version>3.0</version>
-	</dependency>
-	<dependency>
-    	<groupId>org.apache.velocity</groupId>
-    	<artifactId>velocity</artifactId>
-    	<version>1.7</version>
-	</dependency>
     <dependency>
         <groupId>org.seleniumhq.selenium</groupId>
         <artifactId>selenium-java</artifactId>
@@ -46,5 +30,5 @@
 	    <version>6.10</version>
 	    <scope>test</scope>
     </dependency>
-  </dependencies>  
+  </dependencies>
 </project>
