@@ -17,7 +17,6 @@ public class ScriptForJenkins extends WebDriverFactory {
 			System.setProperty("webdriver.chrome.driver", "./Driver/chromedriver.exe");
 			driver = new ChromeDriver();
 			driver.manage().window().maximize();
-			driver.manage().deleteAllCookies();
 			driver.get("https://www.volaris.com/?culture=en-US&Flag=us");
 		} catch (Exception e) {
 			System.out.println(e.getMessage());
